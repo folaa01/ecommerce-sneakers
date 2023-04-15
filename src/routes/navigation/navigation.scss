@@ -1,0 +1,28 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid hsl(223, 64%, 98%);
+    align-items: center;
+    padding: 10px;
+
+    .navigation-left {
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .nav-links-container {
+        // color: hsl(223, 64%, 98%);
+        display: flex;
+        gap: 40px;
+    }
+
+    .nav-link {
+        color: hsl(220, 14%, 75%);
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+      }
+      .nav-link:hover {
+        color: hsl(219, 9%, 45%);
+      }
+}
