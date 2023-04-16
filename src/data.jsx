@@ -1,22 +1,32 @@
+
+import imageProduct1 from "./assets/images/image-product-1.jpg";
+import imageProduct1Thumbnail from "./assets/images/image-product-1-thumbnail.jpg";
+import imageProduct2 from "./assets/images/image-product-2.jpg";
+import imageProduct2Thumbnail from "./assets/images/image-product-2-thumbnail.jpg";
+import imageProduct3 from "./assets/images/image-product-3.jpg";
+import imageProduct3Thumbnail from "./assets/images/image-product-3-thumbnail.jpg";
+import imageProduct4 from "./assets/images/image-product-4.jpg";
+import imageProduct4Thumbnail from "./assets/images/image-product-4-thumbnail.jpg";
+
 export const data = [
     {
         id: 1,
-        mainImage: "../assets/images/image-product-1.jpg",
-        thumbnail: "../assets/images/image-product-1-thumbnail.jpg"
+        mainImage: imageProduct1,
+        thumbnail: imageProduct1Thumbnail,
     },
     {
         id: 2,
-        mainImage: "../assets/images/image-product-2.jpg",
-        thumbnail: "../assets/images/image-product-2-thumbnail.jpg"
+        mainImage: imageProduct2,
+        thumbnail: imageProduct2Thumbnail,
     },
     {
         id: 3,
-        mainImage: "../assets/images/image-product-3.jpg",
-        thumbnail: "../assets/images/image-product-3-thumbnail.jpg"
+        mainImage: imageProduct3,
+        thumbnail: imageProduct3Thumbnail,
     },
     {
         id: 4,
-        mainImage: "../assets/images/image-product-4.jpg",
-        thumbnail: "../assets/images/image-product-4-thumbnail.jpg"
+        mainImage: imageProduct4,
+        thumbnail: imageProduct4Thumbnail,
     },
-]
+];

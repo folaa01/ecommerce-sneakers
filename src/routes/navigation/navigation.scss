@@ -1,10 +1,18 @@
-.navigation {
+.header {
+    display: flex;
+    justify-content: center;
+
+    .navigation {
     display: flex;
     justify-content: space-between;
     border-bottom: 3px solid hsl(223, 64%, 98%);
     align-items: center;
     padding: 10px;
-
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    }
     .navigation-left {
         display: flex;
         justify-content: space-between;
@@ -24,5 +32,34 @@
       }
       .nav-link:hover {
         color: hsl(219, 9%, 45%);
+      }
+      
+      .navigation-right {
+        display: flex;
+        align-items: center;
+      
+        .cart-icon-container {
+          margin-right: 10px;
+        }
+
+        .cart-icon:hover {
+            fill: hsl(0, 0%, 0%);
+            cursor: pointer;
+        }
+      
+        .avatar-container {
+          margin-left: 20px;
+        }
+
+        .avatar-container img {
+            height: 30px;
+            width: 30px;
+          }
+
+        .avatar-img:hover {
+            border-radius: 50%;
+            border: 2px solid hsl(26, 100%, 55%);
+            cursor: pointer;
+        }
       }
 }

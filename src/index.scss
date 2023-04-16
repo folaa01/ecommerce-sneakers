@@ -19,9 +19,13 @@ code {
 
   a {
     text-decoration: none;
-    color: black;
+    color: hsl(228, 45%, 44%)
   }
 
   * {
     box-sizing: border-box;
+  }
+
+  ul {
+    list-style: none;
   }

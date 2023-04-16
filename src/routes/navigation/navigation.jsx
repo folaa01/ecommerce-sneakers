@@ -6,7 +6,7 @@ import './navigation.scss'
 
 const Navigation = () => {
     return(
-        <div>
+        <div className='header'>
             <div className="navigation">
                 <div className='navigation-left'>
                     <div>
@@ -22,9 +22,14 @@ const Navigation = () => {
                         <Link className='nav-link' to='/contact'>Contact</Link>
                     </div>
                 </div>
-                <div>
-                    <CartIcon />
-                    <img src={avatar} alt="avatar"  />
+                <div className='navigation-right'>
+                    <div className='cart-icon-container'>
+                    <CartIcon className='cart-icon' />
+                    </div>
+                    <div className='avatar-container'>
+                    <img src={avatar} alt="avatar" className='avatar-img' />
+                    </div>
+                    
                 </div>
                 
             </div>
